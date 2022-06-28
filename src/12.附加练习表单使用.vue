@@ -20,7 +20,7 @@
     </div>
 
     <div>
-      <span>爱好：</span>
+      <span>爱好 ：</span>
       <input type="checkbox" value="看书" v-model="hobby" />看书
       <input type="checkbox" value="学习" v-model="hobby" />学习
       <input type="checkbox" value="写代码" v-model="hobby" />写代码
