@@ -46,7 +46,7 @@ export default {
     },
     clickFn(val, e) {
       // console.log(e.target)
-      alert(`第${val}图片,地址${e.target.src}`)
+      alert(`第${val}图片,地址${e.target.src} `)
     },
   },
 }
