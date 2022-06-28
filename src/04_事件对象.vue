@@ -1,33 +1,28 @@
 <template>
   <div>
-    <!-- 1. 事件触发, 无传值, 可以直接获取事件对象
-    2. 事件触发, 传值, 需要手动传入$event -->
-    <a href="http://www.baidu.com">百度</a>
-    <hr />
-    <a href="http://www.taobao.com">淘宝</a>
+    <a @click="one" href="http://www.baidu.com">阻止百度</a>
+    <br />
+    <a @click="two(1, $event)" href="http://www.baidu.com">阻止百度</a>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'VuecliDemo04',
-
+  name: 'App',
   data() {
-    return {
-      
-    };
+    return {}
   },
-
-  mounted() {
-    
-  },
-
   methods: {
-    
+    one(e) {
+      console.log(e)
+      e.preventDefault()
+    },
+    two(val, e) {
+      console.log(val)
+      e.preventDefault()
+    },
   },
-};
+}
 </script>
 
-<style scoped>
-
-</style>
+<style></style>
