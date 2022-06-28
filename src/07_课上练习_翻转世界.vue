@@ -1,21 +1,30 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
-    <button @click="clickFn">翻转</button>
+    <div>
+      <span>用户名:</span>
+      <input type="text" v-model="text" />
+    </div>
+    <div>
+      <span>密码: </span>
+      <input type="password" v-model="password" />
+    </div>
+    <input type="text" v-bind:value="val1" @input="inputFn" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
   data() {
     return {
-      msg: 'Hello, world!',
+      text: '',
+      password: '',
+      val: '',
+      val1: '',
     }
   },
   methods: {
-    clickFn() {
-      this.msg = this.msg.split('').reverse().join('')
+    inputFn(e) {
+      this.val1 = e.target.value
     },
   },
 }
