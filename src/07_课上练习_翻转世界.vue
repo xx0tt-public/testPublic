@@ -1,21 +1,24 @@
 <template>
   <div>
-    <h1></h1>
-    <button>逆转世界</button>
+    <h1>{{ msg }}</h1>
+    <button @click="clickFn">翻转</button>
   </div>
 </template>
 
 <script>
 export default {
-  data(){
+  name: 'App',
+  data() {
     return {
+      msg: 'Hello, world!',
     }
   },
   methods: {
-  }
+    clickFn() {
+      this.msg = this.msg.split('').reverse().join('')
+    },
+  },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
