@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>你要购买商品的数量: </p>
+    <p>你要购买商品的数量:</p>
     <button>+1</button>
     <button>+1</button>
     <button>+5</button>
@@ -13,21 +13,13 @@ export default {
   name: 'VuecliDemo03',
 
   data() {
-    return {
-      
-    };
+    return {};
   },
 
-  mounted() {
-    
-  },
+  mounted() {},
 
-  methods: {
-    
-  },
+  methods: {},
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
