@@ -1,22 +1,16 @@
 <template>
-  <div>
-    <input type="text" v-model="test" /><br />
-    <input type="test" v-bind="test1" @input="iptFn" />
-  </div>
+  <button @click="btn">使用reduce</button>
 </template>
 
 <script>
 export default {
-  name: 'App',
-  data() {
-    return {
-      test: '',
-      test1: '',
-    }
-  },
   methods: {
-    iptFn(e) {
-      this.test1 = e.target.value
+    btn() {
+      let arr = [{ a: 100 }, { a: 20 }, { a: -10 }]
+      const sum = arr.reduce((res, item) => {
+        return res + item['a']
+      }, 0)
+      console.log(sum)
     },
   },
 }
