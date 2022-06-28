@@ -26,7 +26,7 @@ export default {
       console.log('span click')
     },
     btn() {
-      console.log('btn')
+      console.log('btn1')
     },
   },
 }
