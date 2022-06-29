@@ -1,24 +1,6 @@
-# vuecli-demo
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#vue基础阶段作业
+#查看个人作业请分支：
+xj: "肖杰" ,
+webxf: "金絮帆" ,
+zzy: "张尊勇" ,
+xx0tt: "徐金平"
