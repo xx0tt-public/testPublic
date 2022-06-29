@@ -2,7 +2,6 @@
   <div>
     <button @click="btn">解析字符串</button> <br />
     <button @click="btn2">reduce加减</button>
-    <a href="" style="color: red; text-decoration: none">hhh</a>
   </div>
 </template>
 <script>
@@ -39,4 +38,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+a {
+  text-decoration: none;
+}
+</style>
