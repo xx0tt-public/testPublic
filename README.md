@@ -1,6 +1,7 @@
 # vue基础阶段作业
-## 查看个人作业请切换分支：
-### xj: "肖杰" , https://github.com/xx0tt-public/testPublic/tree/xj
-### webxf: "金絮帆" , https://github.com/xx0tt-public/testPublic/tree/webxf
-### zzy: "张尊勇" , https://github.com/xx0tt-public/testPublic/tree/zzy
-### xx0tt: "徐金平" https://github.com/xx0tt-public/testPublic/tree/xx0tt
+## 查看个人作业请切换分支(点击跳转)：
+<a href="https://github.com/xx0tt-public/testPublic/tree/xj"  > x&nbsp;j&nbsp;:&nbsp; &nbsp;肖&nbsp;杰  </a><br/>
+<a href="https://github.com/xx0tt-public/testPublic/tree/webxf"> webxf&nbsp;:&nbsp;  金&nbsp;絮&nbsp;帆 </a><br/>
+<a href="https://github.com/xx0tt-public/testPublic/tree/zzy"> zzy&nbsp;:&nbsp;  &nbsp;张&nbsp;尊&nbsp;勇</a><br/>
+<a href="https://github.com/xx0tt-public/testPublic/tree/xx0tt"> xx0tt&nbsp;:&nbsp;  &nbsp;徐&nbsp;金&nbsp;平&nbsp; </a>
+
